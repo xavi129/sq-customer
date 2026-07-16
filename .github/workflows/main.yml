@@ -1,0 +1,40 @@
+name: Flutter Action
+
+on:
+  push:
+    branches:
+      - storeuser
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-java@v1
+        with:
+          java-version: '12.x'
+      
+      - name: Decode keystore file
+        run: echo "${{ secrets.KEYSTORE_FILE }}" | base64 --decode > ./android/app/key.jks
+        
+      - name: Create keystore.properties file
+        run: |
+          echo "keyAlias=${{ secrets.KEY_ALIAS }}" >> ./android/key.properties
+          echo "keyPassword=${{ secrets.KEYPASSWORD }}" >> ./android/key.properties
+          echo "storeFile=key.jks" >> ./android/key.properties
+          echo "storePassword=${{ secrets.STOREPASSWORD }}" >> ./android/key.properties
+      
+      - name: Print key.properties file
+        run: cat ./android/key.properties
+      
+      - uses: subosito/flutter-action@v1
+        with:
+          flutter-version: '3.16.5'
+
+      - run: flutter pub get
+      - run: flutter build apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
