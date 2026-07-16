@@ -24,6 +24,18 @@ SQ Customer reúne alimentos, comercio, farmacia, paquetería y transporte en un
 - Reservar transporte, elegir vehículo y consultar viajes.
 - Gestionar perfil, wallet, referidos e historial.
 
+## Aplicación a client engagement
+
+Los flujos son transferibles a una app para clientes de servicios en campo:
+
+- Solicitar o reservar un servicio desde el teléfono.
+- Proporcionar ubicación, dirección e instrucciones.
+- Consultar el estado y recibir notificaciones.
+- Comunicarse con soporte o con la operación.
+- Pagar y revisar el historial desde un solo lugar.
+
+La experiencia del cliente depende de que ubicación, trabajo, comunicación y pago compartan el mismo contexto. SQ Customer muestra cómo coordinar esas dependencias en una aplicación móvil extensa.
+
 ## Arquitectura
 
 ```mermaid
@@ -76,4 +88,3 @@ flutter run --dart-define=API_BASE_URL=https://api.example.com
 - Uso responsable de IA en una base móvil extensa.
 
 La copia utiliza nombres neutrales y configuración ficticia. No contiene credenciales, datos de producción ni llaves de firma.
-
