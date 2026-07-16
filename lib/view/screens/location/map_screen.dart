@@ -1,16 +1,16 @@
-import 'package:sq_delivery_customer/data/model/response/address_model.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_app_bar.dart';
+import 'package:sq_customer/data/model/response/address_model.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:get/get.dart';
 import 'dart:ui';
 
-import 'package:sq_delivery_customer/view/base/menu_drawer.dart';
-import 'package:sq_delivery_customer/view/screens/order/widget/address_details.dart';
+import 'package:sq_customer/view/base/menu_drawer.dart';
+import 'package:sq_customer/view/screens/order/widget/address_details.dart';
 
 class MapScreen extends StatefulWidget {
   final AddressModel address;

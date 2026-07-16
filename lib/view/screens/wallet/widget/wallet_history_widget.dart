@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
-import 'package:sq_delivery_customer/controller/wallet_controller.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/no_data_screen.dart';
+import 'package:sq_customer/controller/wallet_controller.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/no_data_screen.dart';
 import 'history_item.dart';
 
 class WalletHistoryWidget extends StatelessWidget {

@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/cart_controller.dart';
-import 'package:sq_delivery_customer/controller/localization_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/controller/user_controller.dart';
-import 'package:sq_delivery_customer/controller/wishlist_controller.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/confirmation_dialog.dart';
-import 'package:sq_delivery_customer/view/screens/auth/sign_in_screen.dart';
-import 'package:sq_delivery_customer/view/base/hover/on_hover.dart';
-import 'package:sq_delivery_customer/view/screens/auth/inicio.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/cart_controller.dart';
+import 'package:sq_customer/controller/localization_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/controller/user_controller.dart';
+import 'package:sq_customer/controller/wishlist_controller.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/confirmation_dialog.dart';
+import 'package:sq_customer/view/screens/auth/sign_in_screen.dart';
+import 'package:sq_customer/view/base/hover/on_hover.dart';
+import 'package:sq_customer/view/screens/auth/inicio.dart';
 
 class MenuDrawer extends StatefulWidget {
   const MenuDrawer({Key? key}) : super(key: key);

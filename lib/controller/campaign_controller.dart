@@ -1,8 +1,8 @@
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/data/api/api_checker.dart';
-import 'package:sq_delivery_customer/data/model/response/basic_campaign_model.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/data/repository/campaign_repo.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/data/api/api_checker.dart';
+import 'package:sq_customer/data/model/response/basic_campaign_model.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/data/repository/campaign_repo.dart';
 import 'package:get/get.dart';
 
 class CampaignController extends GetxController implements GetxService {

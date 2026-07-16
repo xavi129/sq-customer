@@ -2,11 +2,11 @@ import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
-import 'package:sq_delivery_customer/controller/campaign_controller.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/base/title_widget.dart';
-import 'package:sq_delivery_customer/view/screens/home/grocery/widget/components/circle_list_view_widget.dart';
+import 'package:sq_customer/controller/campaign_controller.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/base/title_widget.dart';
+import 'package:sq_customer/view/screens/home/grocery/widget/components/circle_list_view_widget.dart';
 
 class JustForYouView extends StatefulWidget {
   const JustForYouView({Key? key}) : super(key: key);

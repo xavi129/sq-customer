@@ -1,14 +1,14 @@
-import 'package:sq_delivery_customer/controller/order_controller.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_button.dart';
+import 'package:sq_customer/controller/order_controller.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_button.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/view/base/footer_view.dart';
-import 'package:sq_delivery_customer/view/screens/auth/sign_in_screen.dart';
-import 'package:sq_delivery_customer/view/screens/auth/inicio.dart';
+import 'package:sq_customer/view/base/footer_view.dart';
+import 'package:sq_customer/view/screens/auth/sign_in_screen.dart';
+import 'package:sq_customer/view/screens/auth/inicio.dart';
 
 class NotLoggedInScreen extends StatelessWidget {
   final Function(bool success) callBack;

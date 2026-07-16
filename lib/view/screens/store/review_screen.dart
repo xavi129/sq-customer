@@ -1,12 +1,12 @@
-import 'package:sq_delivery_customer/controller/store_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/base/custom_app_bar.dart';
-import 'package:sq_delivery_customer/view/base/footer_view.dart';
-import 'package:sq_delivery_customer/view/base/menu_drawer.dart';
-import 'package:sq_delivery_customer/view/base/no_data_screen.dart';
-import 'package:sq_delivery_customer/view/screens/store/widget/review_widget.dart';
+import 'package:sq_customer/controller/store_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/base/custom_app_bar.dart';
+import 'package:sq_customer/view/base/footer_view.dart';
+import 'package:sq_customer/view/base/menu_drawer.dart';
+import 'package:sq_customer/view/base/no_data_screen.dart';
+import 'package:sq_customer/view/screens/store/widget/review_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,7 +1,7 @@
 import 'package:connectivity/connectivity.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

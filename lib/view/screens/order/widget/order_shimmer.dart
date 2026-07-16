@@ -1,6 +1,6 @@
-import 'package:sq_delivery_customer/controller/order_controller.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
+import 'package:sq_customer/controller/order_controller.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
 

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
-import 'package:sq_delivery_customer/controller/item_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/view/base/title_widget.dart';
-import 'package:sq_delivery_customer/view/base/card_design/item_card.dart';
+import 'package:sq_customer/controller/item_controller.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/view/base/title_widget.dart';
+import 'package:sq_customer/view/base/card_design/item_card.dart';
 
 class SpecialOfferView extends StatelessWidget {
   final bool isFood;

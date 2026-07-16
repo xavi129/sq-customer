@@ -1,19 +1,19 @@
 
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/coupon_controller.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/base/custom_app_bar.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
-import 'package:sq_delivery_customer/view/base/footer_view.dart';
-import 'package:sq_delivery_customer/view/base/menu_drawer.dart';
-import 'package:sq_delivery_customer/view/base/no_data_screen.dart';
-import 'package:sq_delivery_customer/view/base/not_logged_in_screen.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/coupon_controller.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/base/custom_app_bar.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/view/base/footer_view.dart';
+import 'package:sq_customer/view/base/menu_drawer.dart';
+import 'package:sq_customer/view/base/no_data_screen.dart';
+import 'package:sq_customer/view/base/not_logged_in_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/view/base/web_page_title_widget.dart';
-import 'package:sq_delivery_customer/view/screens/coupon/widget/coupon_card.dart';
+import 'package:sq_customer/view/base/web_page_title_widget.dart';
+import 'package:sq_customer/view/screens/coupon/widget/coupon_card.dart';
 
 class CouponScreen extends StatefulWidget {
   const CouponScreen({Key? key}) : super(key: key);

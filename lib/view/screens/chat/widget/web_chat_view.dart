@@ -2,25 +2,25 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/chat_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/controller/user_controller.dart';
-import 'package:sq_delivery_customer/data/model/body/notification_body.dart';
-import 'package:sq_delivery_customer/data/model/response/conversation_model.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_image.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
-import 'package:sq_delivery_customer/view/base/footer_view.dart';
-import 'package:sq_delivery_customer/view/base/not_logged_in_screen.dart';
-import 'package:sq_delivery_customer/view/base/paginated_list_view.dart';
-import 'package:sq_delivery_customer/view/base/web_search_field.dart';
-import 'package:sq_delivery_customer/view/screens/chat/widget/chatting_shimmer.dart';
-import 'package:sq_delivery_customer/view/screens/chat/widget/message_bubble.dart';
-import 'package:sq_delivery_customer/view/screens/chat/widget/web_conversation_list_view.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/chat_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/controller/user_controller.dart';
+import 'package:sq_customer/data/model/body/notification_body.dart';
+import 'package:sq_customer/data/model/response/conversation_model.dart';
+import 'package:sq_customer/util/app_constants.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_image.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/view/base/footer_view.dart';
+import 'package:sq_customer/view/base/not_logged_in_screen.dart';
+import 'package:sq_customer/view/base/paginated_list_view.dart';
+import 'package:sq_customer/view/base/web_search_field.dart';
+import 'package:sq_customer/view/screens/chat/widget/chatting_shimmer.dart';
+import 'package:sq_customer/view/screens/chat/widget/message_bubble.dart';
+import 'package:sq_customer/view/screens/chat/widget/web_conversation_list_view.dart';
 
 
 class WebChatView extends StatefulWidget {

@@ -1,4 +1,4 @@
-name: sq_delivery_customer
+name: sq_customer
 description: app de entregas. Alimentación, comercio electrónico, farmacia y paquetería.
 publish_to: 'none' #
 version: 0.0.32+32

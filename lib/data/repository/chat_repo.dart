@@ -1,7 +1,7 @@
 import 'package:get/get_connect/http/src/response/response.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sq_delivery_customer/data/api/api_client.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
+import 'package:sq_customer/data/api/api_client.dart';
+import 'package:sq_customer/util/app_constants.dart';
 
 class ChatRepo {
   final ApiClient apiClient;

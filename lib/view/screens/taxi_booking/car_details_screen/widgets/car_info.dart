@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/data/model/response/vehicle_model.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/ripple_button.dart';
-import 'package:sq_delivery_customer/view/screens/taxi_booking/widgets/cost_variations_dialog.dart';
+import 'package:sq_customer/data/model/response/vehicle_model.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/ripple_button.dart';
+import 'package:sq_customer/view/screens/taxi_booking/widgets/cost_variations_dialog.dart';
 
 
 class CarInfo extends StatelessWidget {

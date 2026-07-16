@@ -1,10 +1,10 @@
-import 'package:sq_delivery_customer/controller/campaign_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/basic_campaign_model.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/base/custom_image.dart';
-import 'package:sq_delivery_customer/view/screens/home/web/widgets/arrow_icon_button.dart';
+import 'package:sq_customer/controller/campaign_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/data/model/response/basic_campaign_model.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/base/custom_image.dart';
+import 'package:sq_customer/view/screens/home/web/widgets/arrow_icon_button.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';

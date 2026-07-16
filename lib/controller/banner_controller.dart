@@ -1,12 +1,12 @@
-import 'package:sq_delivery_customer/controller/location_controller.dart';
-import 'package:sq_delivery_customer/data/api/api_checker.dart';
-import 'package:sq_delivery_customer/data/model/response/banner_model.dart';
-import 'package:sq_delivery_customer/data/model/response/others_banner_model.dart';
-import 'package:sq_delivery_customer/data/model/response/promotional_banner_model.dart';
-import 'package:sq_delivery_customer/data/model/response/zone_response_model.dart';
-import 'package:sq_delivery_customer/data/repository/banner_repo.dart';
+import 'package:sq_customer/controller/location_controller.dart';
+import 'package:sq_customer/data/api/api_checker.dart';
+import 'package:sq_customer/data/model/response/banner_model.dart';
+import 'package:sq_customer/data/model/response/others_banner_model.dart';
+import 'package:sq_customer/data/model/response/promotional_banner_model.dart';
+import 'package:sq_customer/data/model/response/zone_response_model.dart';
+import 'package:sq_customer/data/repository/banner_repo.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
 
 class BannerController extends GetxController implements GetxService {
   final BannerRepo bannerRepo;

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:sq_delivery_customer/controller/parcel_controller.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/screens/location/widget/location_search_dialog.dart';
+import 'package:sq_customer/controller/parcel_controller.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/screens/location/widget/location_search_dialog.dart';
 
 class SearchLocationWidget extends StatelessWidget {
   final GoogleMapController? mapController;

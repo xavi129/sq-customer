@@ -1,8 +1,8 @@
-import 'package:sq_delivery_customer/controller/rider_controller.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/base/footer_view.dart';
-import 'package:sq_delivery_customer/view/base/no_data_screen.dart';
-import 'package:sq_delivery_customer/view/base/paginated_list_view.dart';
+import 'package:sq_customer/controller/rider_controller.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/base/footer_view.dart';
+import 'package:sq_customer/view/base/no_data_screen.dart';
+import 'package:sq_customer/view/base/paginated_list_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../widgets/trip_history_item.dart';

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/booking_checkout_controller.dart';
-import 'package:sq_delivery_customer/controller/theme_controller.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/screens/taxi_booking/booking_checkout_screen/widgets/taxi_payment_button.dart';
+import 'package:sq_customer/controller/booking_checkout_controller.dart';
+import 'package:sq_customer/controller/theme_controller.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/screens/taxi_booking/booking_checkout_screen/widgets/taxi_payment_button.dart';
 
 class SelectPaymentMethod extends StatelessWidget {
   const SelectPaymentMethod({Key? key}) : super(key: key);

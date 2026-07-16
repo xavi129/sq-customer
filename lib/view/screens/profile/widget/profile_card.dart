@@ -1,6 +1,6 @@
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
 import 'package:flutter/material.dart';
 
 class ProfileCard extends StatelessWidget {

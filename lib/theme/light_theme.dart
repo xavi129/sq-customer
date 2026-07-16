@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
+import 'package:sq_customer/util/app_constants.dart';
 
 ThemeData light({Color color = const Color(0xFF34D186)}) => ThemeData(
   useMaterial3: false,

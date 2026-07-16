@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/controller/theme_controller.dart';
-import 'package:sq_delivery_customer/controller/user_controller.dart';
-import 'package:sq_delivery_customer/helper/date_converter.dart';
-import 'package:sq_delivery_customer/helper/price_converter.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/confirmation_dialog.dart';
-import 'package:sq_delivery_customer/view/base/custom_image.dart';
-import 'package:sq_delivery_customer/view/screens/profile/widget/profile_button.dart';
-import 'package:sq_delivery_customer/view/screens/profile/widget/profile_card.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/controller/theme_controller.dart';
+import 'package:sq_customer/controller/user_controller.dart';
+import 'package:sq_customer/helper/date_converter.dart';
+import 'package:sq_customer/helper/price_converter.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/confirmation_dialog.dart';
+import 'package:sq_customer/view/base/custom_image.dart';
+import 'package:sq_customer/view/screens/profile/widget/profile_button.dart';
+import 'package:sq_customer/view/screens/profile/widget/profile_card.dart';
 
 class WebProfileWidget extends StatelessWidget {
   const WebProfileWidget({Key? key}) : super(key: key);

@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/item_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/view/base/title_widget.dart';
-import 'package:sq_delivery_customer/view/base/card_design/item_card.dart';
-import 'package:sq_delivery_customer/view/screens/home/web/web_new/web_special_offer_view.dart';
-import 'package:sq_delivery_customer/view/screens/home/web/widgets/arrow_icon_button.dart';
+import 'package:sq_customer/controller/item_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/app_constants.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/view/base/title_widget.dart';
+import 'package:sq_customer/view/base/card_design/item_card.dart';
+import 'package:sq_customer/view/screens/home/web/web_new/web_special_offer_view.dart';
+import 'package:sq_customer/view/screens/home/web/widgets/arrow_icon_button.dart';
 
 class WebMostPopularItemView extends StatefulWidget {
   final bool isFood;

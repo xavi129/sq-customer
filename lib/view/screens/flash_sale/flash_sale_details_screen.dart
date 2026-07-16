@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
-import 'package:sq_delivery_customer/controller/flash_sale_controller.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_app_bar.dart';
-import 'package:sq_delivery_customer/view/base/footer_view.dart';
-import 'package:sq_delivery_customer/view/base/paginated_list_view.dart';
-import 'package:sq_delivery_customer/view/screens/flash_sale/widgets/flash_product_card.dart';
-import 'package:sq_delivery_customer/view/screens/flash_sale/widgets/flash_sale_timer_view.dart';
+import 'package:sq_customer/controller/flash_sale_controller.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_app_bar.dart';
+import 'package:sq_customer/view/base/footer_view.dart';
+import 'package:sq_customer/view/base/paginated_list_view.dart';
+import 'package:sq_customer/view/screens/flash_sale/widgets/flash_product_card.dart';
+import 'package:sq_customer/view/screens/flash_sale/widgets/flash_sale_timer_view.dart';
 
 class FlashSaleDetailsScreen extends StatefulWidget {
   final int id;

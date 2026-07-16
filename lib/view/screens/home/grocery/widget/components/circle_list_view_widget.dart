@@ -2,14 +2,14 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
-import 'package:sq_delivery_customer/controller/campaign_controller.dart';
-import 'package:sq_delivery_customer/controller/item_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/base/custom_image.dart';
-import 'package:sq_delivery_customer/view/base/title_widget.dart';
-import 'package:sq_delivery_customer/view/screens/home/grocery/widget/components/custom_circle_list_view_package.dart';
+import 'package:sq_customer/controller/campaign_controller.dart';
+import 'package:sq_customer/controller/item_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/base/custom_image.dart';
+import 'package:sq_customer/view/base/title_widget.dart';
+import 'package:sq_customer/view/screens/home/grocery/widget/components/custom_circle_list_view_package.dart';
 
 class CircleListView extends StatefulWidget {
   const CircleListView({super.key});

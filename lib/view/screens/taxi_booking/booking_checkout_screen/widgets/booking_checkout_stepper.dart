@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/booking_checkout_controller.dart';
-import 'package:sq_delivery_customer/controller/localization_controller.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/view/screens/taxi_booking/booking_checkout_screen/widgets/custom_header_icon.dart';
-import 'package:sq_delivery_customer/view/screens/taxi_booking/booking_checkout_screen/widgets/custom_header_line.dart';
-import 'package:sq_delivery_customer/view/screens/taxi_booking/booking_checkout_screen/widgets/custom_text.dart';
+import 'package:sq_customer/controller/booking_checkout_controller.dart';
+import 'package:sq_customer/controller/localization_controller.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/view/screens/taxi_booking/booking_checkout_screen/widgets/custom_header_icon.dart';
+import 'package:sq_customer/view/screens/taxi_booking/booking_checkout_screen/widgets/custom_header_line.dart';
+import 'package:sq_customer/view/screens/taxi_booking/booking_checkout_screen/widgets/custom_text.dart';
 
 class BookingCheckoutStepper extends StatelessWidget {
   final String pageState;

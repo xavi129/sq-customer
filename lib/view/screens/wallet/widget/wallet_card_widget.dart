@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:just_the_tooltip/just_the_tooltip.dart';
-import 'package:sq_delivery_customer/controller/localization_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/controller/user_controller.dart';
-import 'package:sq_delivery_customer/helper/price_converter.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_button.dart';
-import 'package:sq_delivery_customer/view/screens/wallet/widget/add_fund_dialogue.dart';
-import 'package:sq_delivery_customer/view/screens/wallet/widget/wallet_bottom_sheet.dart';
+import 'package:sq_customer/controller/localization_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/controller/user_controller.dart';
+import 'package:sq_customer/helper/price_converter.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_button.dart';
+import 'package:sq_customer/view/screens/wallet/widget/add_fund_dialogue.dart';
+import 'package:sq_customer/view/screens/wallet/widget/wallet_bottom_sheet.dart';
 
 class WalletCardWidget extends StatelessWidget {
   final bool fromWallet;

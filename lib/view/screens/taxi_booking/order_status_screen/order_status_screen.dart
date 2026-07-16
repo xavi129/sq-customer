@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/theme_controller.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/cancellation_dialog.dart';
-import 'package:sq_delivery_customer/view/base/custom_app_bar.dart';
-import 'package:sq_delivery_customer/view/base/ripple_button.dart';
-import 'package:sq_delivery_customer/view/screens/taxi_booking/select_map_location/widgets/dotted_line.dart';
-import 'package:sq_delivery_customer/view/screens/taxi_booking/select_map_location/widgets/pick_and_destination_address_info.dart';
+import 'package:sq_customer/controller/theme_controller.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/cancellation_dialog.dart';
+import 'package:sq_customer/view/base/custom_app_bar.dart';
+import 'package:sq_customer/view/base/ripple_button.dart';
+import 'package:sq_customer/view/screens/taxi_booking/select_map_location/widgets/dotted_line.dart';
+import 'package:sq_customer/view/screens/taxi_booking/select_map_location/widgets/pick_and_destination_address_info.dart';
 
 class OrderStatusScreen extends StatefulWidget {
   const OrderStatusScreen({Key? key}) : super(key: key);

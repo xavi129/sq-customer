@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/base/custom_dropdown.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/base/custom_dropdown.dart';
 class ModuleViewWidget extends StatelessWidget {
   const ModuleViewWidget({Key? key}) : super(key: key);
 

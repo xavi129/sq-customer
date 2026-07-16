@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/location_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/zone_response_model.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
+import 'package:sq_customer/controller/location_controller.dart';
+import 'package:sq_customer/data/model/response/zone_response_model.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
 class BadWeatherWidget extends StatefulWidget {
   const BadWeatherWidget({Key? key}) : super(key: key);
 

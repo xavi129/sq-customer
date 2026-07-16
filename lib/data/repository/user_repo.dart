@@ -1,6 +1,6 @@
-import 'package:sq_delivery_customer/data/api/api_client.dart';
-import 'package:sq_delivery_customer/data/model/response/userinfo_model.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
+import 'package:sq_customer/data/api/api_client.dart';
+import 'package:sq_customer/data/model/response/userinfo_model.dart';
+import 'package:sq_customer/util/app_constants.dart';
 import 'package:get/get.dart';
 import 'package:get/get_connect/http/src/response/response.dart';
 import 'package:image_picker/image_picker.dart';

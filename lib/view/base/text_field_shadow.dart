@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
+import 'package:sq_customer/util/dimensions.dart';
 class TextFieldShadow extends StatelessWidget {
   final Widget child;
   const TextFieldShadow({Key? key, required this.child}) : super(key: key);

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
 
 class BottomNavItem extends StatelessWidget {
   final String selectedIcon;

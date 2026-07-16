@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/cart_controller.dart';
-import 'package:sq_delivery_customer/helper/price_converter.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_button.dart';
+import 'package:sq_customer/controller/cart_controller.dart';
+import 'package:sq_customer/helper/price_converter.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_button.dart';
 
 class BottomCartWidget extends StatelessWidget {
   const BottomCartWidget({Key? key}) : super(key: key);

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/cart_controller.dart';
-import 'package:sq_delivery_customer/controller/item_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
+import 'package:sq_customer/controller/cart_controller.dart';
+import 'package:sq_customer/controller/item_controller.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
 class CartCountView extends StatelessWidget {
   final Item item;
   final Widget? child;

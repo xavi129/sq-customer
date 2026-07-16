@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/data/model/response/choose_us_model.dart';
-import 'package:sq_delivery_customer/data/model/response/language_model.dart';
-import 'package:sq_delivery_customer/util/images.dart';
+import 'package:sq_customer/data/model/response/choose_us_model.dart';
+import 'package:sq_customer/data/model/response/language_model.dart';
+import 'package:sq_customer/util/images.dart';
 
 class AppConstants {
   static const String appName = 'SQ Entregas';

@@ -1,8 +1,8 @@
-import 'package:sq_delivery_customer/data/api/api_checker.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/data/model/response/store_model.dart';
-import 'package:sq_delivery_customer/data/repository/search_repo.dart';
-import 'package:sq_delivery_customer/helper/date_converter.dart';
+import 'package:sq_customer/data/api/api_checker.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/data/model/response/store_model.dart';
+import 'package:sq_customer/data/repository/search_repo.dart';
+import 'package:sq_customer/helper/date_converter.dart';
 import 'package:get/get.dart';
 
 class SearchingController extends GetxController implements GetxService {

@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/booking_checkout_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/controller/theme_controller.dart';
-import 'package:sq_delivery_customer/data/model/body/notification_body.dart';
-import 'package:sq_delivery_customer/data/model/body/user_information_body.dart';
-import 'package:sq_delivery_customer/data/model/response/conversation_model.dart';
-import 'package:sq_delivery_customer/data/model/response/vehicle_model.dart';
-import 'package:sq_delivery_customer/helper/date_converter.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_image.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
-import 'package:sq_delivery_customer/view/screens/taxi_booking/select_map_location/widgets/dotted_line.dart';
-import 'package:sq_delivery_customer/view/screens/taxi_booking/select_map_location/widgets/pick_and_destination_address_info.dart';
+import 'package:sq_customer/controller/booking_checkout_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/controller/theme_controller.dart';
+import 'package:sq_customer/data/model/body/notification_body.dart';
+import 'package:sq_customer/data/model/body/user_information_body.dart';
+import 'package:sq_customer/data/model/response/conversation_model.dart';
+import 'package:sq_customer/data/model/response/vehicle_model.dart';
+import 'package:sq_customer/helper/date_converter.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_image.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/view/screens/taxi_booking/select_map_location/widgets/dotted_line.dart';
+import 'package:sq_customer/view/screens/taxi_booking/select_map_location/widgets/pick_and_destination_address_info.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class BookingCompleteInfo extends StatelessWidget {

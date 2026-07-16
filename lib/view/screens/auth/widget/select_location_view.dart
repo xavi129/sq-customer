@@ -4,17 +4,17 @@ import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_app_bar.dart';
-import 'package:sq_delivery_customer/view/base/custom_button.dart';
-import 'package:sq_delivery_customer/view/base/custom_dropdown.dart';
-import 'package:sq_delivery_customer/view/screens/auth/widget/module_view.dart';
-import 'package:sq_delivery_customer/view/screens/location/widget/location_search_dialog.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_app_bar.dart';
+import 'package:sq_customer/view/base/custom_button.dart';
+import 'package:sq_customer/view/base/custom_dropdown.dart';
+import 'package:sq_customer/view/screens/auth/widget/module_view.dart';
+import 'package:sq_customer/view/screens/location/widget/location_search_dialog.dart';
 
 class SelectLocationView extends StatefulWidget {
   final bool fromView;

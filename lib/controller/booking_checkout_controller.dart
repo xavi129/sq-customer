@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/data/api/api_checker.dart';
-import 'package:sq_delivery_customer/data/model/body/user_information_body.dart';
-import 'package:sq_delivery_customer/data/model/response/vehicle_model.dart';
-import 'package:sq_delivery_customer/data/repository/rider_repo.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/data/api/api_checker.dart';
+import 'package:sq_customer/data/model/body/user_information_body.dart';
+import 'package:sq_customer/data/model/response/vehicle_model.dart';
+import 'package:sq_customer/data/repository/rider_repo.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
 
 enum PageState {orderDetails, payment, complete}
 

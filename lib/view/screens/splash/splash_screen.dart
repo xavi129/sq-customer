@@ -1,20 +1,20 @@
 import 'dart:async';
 
 import 'package:connectivity/connectivity.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/cart_controller.dart';
-import 'package:sq_delivery_customer/controller/location_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/controller/wishlist_controller.dart';
-import 'package:sq_delivery_customer/data/model/body/notification_body.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/view/base/no_internet_screen.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/cart_controller.dart';
+import 'package:sq_customer/controller/location_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/controller/wishlist_controller.dart';
+import 'package:sq_customer/data/model/body/notification_body.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/app_constants.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/view/base/no_internet_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/view/screens/auth/inicio.dart';
+import 'package:sq_customer/view/screens/auth/inicio.dart';
 
 class SplashScreen extends StatefulWidget {
   final NotificationBody? body;

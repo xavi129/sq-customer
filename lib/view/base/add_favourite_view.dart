@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/wishlist_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/wishlist_controller.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
 
 class AddFavouriteView extends StatelessWidget {
   final Item item;

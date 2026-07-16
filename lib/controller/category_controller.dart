@@ -1,8 +1,8 @@
-import 'package:sq_delivery_customer/data/api/api_checker.dart';
-import 'package:sq_delivery_customer/data/model/response/category_model.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/data/model/response/store_model.dart';
-import 'package:sq_delivery_customer/data/repository/category_repo.dart';
+import 'package:sq_customer/data/api/api_checker.dart';
+import 'package:sq_customer/data/model/response/category_model.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/data/model/response/store_model.dart';
+import 'package:sq_customer/data/repository/category_repo.dart';
 import 'package:get/get.dart';
 
 class CategoryController extends GetxController implements GetxService {

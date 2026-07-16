@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/screens/home/grocery/widget/components/review_item_card.dart';
-import 'package:sq_delivery_customer/view/screens/home/web/widgets/sorting_text_button.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/screens/home/grocery/widget/components/review_item_card.dart';
+import 'package:sq_customer/view/screens/home/web/widgets/sorting_text_button.dart';
 
 class BestReviewedProductView extends StatelessWidget {
   const BestReviewedProductView({Key? key}) : super(key: key);

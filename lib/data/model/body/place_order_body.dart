@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:sq_delivery_customer/data/model/response/address_model.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/data/model/response/address_model.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
 
 class PlaceOrderBody {
   List<OnlineCart>? _cart;

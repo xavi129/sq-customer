@@ -2,11 +2,11 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:get/get_connect/http/src/request/request.dart';
 
-import 'package:sq_delivery_customer/data/model/response/address_model.dart';
-import 'package:sq_delivery_customer/data/model/response/error_response.dart';
-import 'package:sq_delivery_customer/data/model/response/module_model.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
+import 'package:sq_customer/data/model/response/address_model.dart';
+import 'package:sq_customer/data/model/response/error_response.dart';
+import 'package:sq_customer/data/model/response/module_model.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/app_constants.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';

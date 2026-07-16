@@ -1,4 +1,4 @@
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
 
 class FlashSaleModel {
   int? id;

@@ -1,16 +1,16 @@
-import 'package:sq_delivery_customer/controller/category_controller.dart';
-import 'package:sq_delivery_customer/controller/localization_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_image.dart';
+import 'package:sq_customer/controller/category_controller.dart';
+import 'package:sq_customer/controller/localization_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
-import 'package:sq_delivery_customer/view/base/hover/on_hover.dart';
-import 'package:sq_delivery_customer/view/base/hover/text_hover.dart';
-import 'package:sq_delivery_customer/view/base/title_widget.dart';
+import 'package:sq_customer/view/base/hover/on_hover.dart';
+import 'package:sq_customer/view/base/hover/text_hover.dart';
+import 'package:sq_customer/view/base/title_widget.dart';
 
 class WebCategoryView extends StatelessWidget {
   final CategoryController categoryController;

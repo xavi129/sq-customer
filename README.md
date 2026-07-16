@@ -1,4 +1,4 @@
-# SQ Delivery Customer
+# SQ Customer
 
 Aplicación Flutter para clientes de una plataforma de entregas y servicios: catálogo, carrito, checkout, pagos, seguimiento, chat, farmacia, paquetería y reserva de transporte.
 
@@ -27,4 +27,3 @@ flutter run --dart-define=API_BASE_URL=https://api.example.com
 Este repositorio representa desarrollo Flutter con apoyo de IA. La IA se utilizó como asistente para diagnóstico, generación de pruebas y propuestas de implementación; las decisiones, integración y validación permanecieron bajo responsabilidad humana.
 
 No se presenta como un proyecto individual desarrollado desde cero, sino como trabajo colaborativo y adaptación dentro de un equipo.
-

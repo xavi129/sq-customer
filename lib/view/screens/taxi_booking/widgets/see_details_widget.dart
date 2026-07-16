@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animarker/widgets/animarker.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:sq_delivery_customer/controller/rider_controller.dart';
-import 'package:sq_delivery_customer/helper/date_converter.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/screens/taxi_booking/select_map_location/widgets/dotted_line.dart';
-import 'package:sq_delivery_customer/view/screens/taxi_booking/select_map_location/widgets/pick_and_destination_address_info.dart';
+import 'package:sq_customer/controller/rider_controller.dart';
+import 'package:sq_customer/helper/date_converter.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/screens/taxi_booking/select_map_location/widgets/dotted_line.dart';
+import 'package:sq_customer/view/screens/taxi_booking/select_map_location/widgets/pick_and_destination_address_info.dart';
 class SeeDetailsWidget extends StatefulWidget {
   const SeeDetailsWidget({Key? key}) : super(key: key);
 

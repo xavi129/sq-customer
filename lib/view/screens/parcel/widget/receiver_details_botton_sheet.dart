@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/parcel_controller.dart';
-import 'package:sq_delivery_customer/controller/user_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/address_model.dart';
-import 'package:sq_delivery_customer/data/model/response/parcel_category_model.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_button.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
-import 'package:sq_delivery_customer/view/base/my_text_field.dart';
+import 'package:sq_customer/controller/parcel_controller.dart';
+import 'package:sq_customer/controller/user_controller.dart';
+import 'package:sq_customer/data/model/response/address_model.dart';
+import 'package:sq_customer/data/model/response/parcel_category_model.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_button.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/view/base/my_text_field.dart';
 
 class ReceiverDetailsBottomSheet extends StatefulWidget {
   final ParcelCategoryModel category;

@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/chat_controller.dart';
-import 'package:sq_delivery_customer/controller/localization_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/controller/user_controller.dart';
-import 'package:sq_delivery_customer/data/model/body/notification_body.dart';
-import 'package:sq_delivery_customer/data/model/response/conversation_model.dart';
-import 'package:sq_delivery_customer/helper/date_converter.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_image.dart';
-import 'package:sq_delivery_customer/view/base/custom_ink_well.dart';
-import 'package:sq_delivery_customer/view/base/paginated_list_view.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/chat_controller.dart';
+import 'package:sq_customer/controller/localization_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/controller/user_controller.dart';
+import 'package:sq_customer/data/model/body/notification_body.dart';
+import 'package:sq_customer/data/model/response/conversation_model.dart';
+import 'package:sq_customer/helper/date_converter.dart';
+import 'package:sq_customer/util/app_constants.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_image.dart';
+import 'package:sq_customer/view/base/custom_ink_well.dart';
+import 'package:sq_customer/view/base/paginated_list_view.dart';
 
 class WebConversationListView extends StatefulWidget {
   final ScrollController scrollController;

@@ -3,12 +3,12 @@ import 'dart:io';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/order_controller.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_app_bar.dart';
-import 'package:sq_delivery_customer/view/base/custom_button.dart';
-import 'package:sq_delivery_customer/view/base/custom_text_field.dart';
+import 'package:sq_customer/controller/order_controller.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_app_bar.dart';
+import 'package:sq_customer/view/base/custom_button.dart';
+import 'package:sq_customer/view/base/custom_text_field.dart';
 class RefundRequestScreen extends StatefulWidget {
   final String? orderId;
   const RefundRequestScreen({Key? key, required this.orderId}) : super(key: key);

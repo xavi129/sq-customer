@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/store_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/store_model.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/base/title_widget.dart';
-import 'package:sq_delivery_customer/view/screens/home/grocery/widget/components/popular_store_card.dart';
+import 'package:sq_customer/controller/store_controller.dart';
+import 'package:sq_customer/data/model/response/store_model.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/base/title_widget.dart';
+import 'package:sq_customer/view/screens/home/grocery/widget/components/popular_store_card.dart';
 
 import '../../web/web_new/web_populer_store_view.dart';
 

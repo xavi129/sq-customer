@@ -1,11 +1,11 @@
-import 'package:sq_delivery_customer/controller/location_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/data/api/api_checker.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/data/model/response/store_model.dart';
-import 'package:sq_delivery_customer/data/repository/item_repo.dart';
-import 'package:sq_delivery_customer/data/repository/wishlist_repo.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/controller/location_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/data/api/api_checker.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/data/model/response/store_model.dart';
+import 'package:sq_customer/data/repository/item_repo.dart';
+import 'package:sq_customer/data/repository/wishlist_repo.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
 import 'package:get/get.dart';
 
 class WishListController extends GetxController implements GetxService {

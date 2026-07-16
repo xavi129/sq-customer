@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
-import 'package:sq_delivery_customer/controller/flash_sale_controller.dart';
-import 'package:sq_delivery_customer/controller/item_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/helper/price_converter.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/screens/home/grocery/widget/components/flash_sale_card.dart';
-import 'package:sq_delivery_customer/view/screens/flash_sale/widgets/flash_sale_timer_view.dart';
+import 'package:sq_customer/controller/flash_sale_controller.dart';
+import 'package:sq_customer/controller/item_controller.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/helper/price_converter.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/screens/home/grocery/widget/components/flash_sale_card.dart';
+import 'package:sq_customer/view/screens/flash_sale/widgets/flash_sale_timer_view.dart';
 
 class WebFlashSaleView extends StatefulWidget {
   const WebFlashSaleView({Key? key}) : super(key: key);

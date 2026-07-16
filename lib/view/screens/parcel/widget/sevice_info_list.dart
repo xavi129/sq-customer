@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sq_delivery_customer/controller/parcel_controller.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
+import 'package:sq_customer/controller/parcel_controller.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
 
 class ServiceInfoList extends StatelessWidget {
   final ParcelController parcelController;

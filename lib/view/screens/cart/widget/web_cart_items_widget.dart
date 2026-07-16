@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/cart_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/cart_model.dart';
-import 'package:sq_delivery_customer/data/model/response/store_model.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/web_constrained_box.dart';
-import 'package:sq_delivery_customer/view/screens/cart/widget/cart_item_widget.dart';
-import 'package:sq_delivery_customer/view/screens/store/store_screen.dart';
+import 'package:sq_customer/controller/cart_controller.dart';
+import 'package:sq_customer/data/model/response/cart_model.dart';
+import 'package:sq_customer/data/model/response/store_model.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/web_constrained_box.dart';
+import 'package:sq_customer/view/screens/cart/widget/cart_item_widget.dart';
+import 'package:sq_customer/view/screens/store/store_screen.dart';
 
 class WebCardItemsWidget extends StatelessWidget {
   final List<CartModel> cartList;

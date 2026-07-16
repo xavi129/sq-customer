@@ -1,5 +1,5 @@
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/screens/order/widget/custom_stepper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/screens/order/widget/custom_stepper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

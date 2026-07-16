@@ -1,20 +1,20 @@
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/item_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/data/api/api_checker.dart';
-import 'package:sq_delivery_customer/data/model/body/place_order_body.dart';
-import 'package:sq_delivery_customer/data/model/response/cart_model.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart' as item_variation;
-import 'package:sq_delivery_customer/data/model/response/module_model.dart';
-import 'package:sq_delivery_customer/data/model/response/online_cart_model.dart';
-import 'package:sq_delivery_customer/data/repository/cart_repo.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/item_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/data/api/api_checker.dart';
+import 'package:sq_customer/data/model/body/place_order_body.dart';
+import 'package:sq_customer/data/model/response/cart_model.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/data/model/response/item_model.dart' as item_variation;
+import 'package:sq_customer/data/model/response/module_model.dart';
+import 'package:sq_customer/data/model/response/online_cart_model.dart';
+import 'package:sq_customer/data/repository/cart_repo.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/helper/cart_helper.dart';
-import 'package:sq_delivery_customer/helper/date_converter.dart';
-import 'package:sq_delivery_customer/helper/price_converter.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
-import 'package:sq_delivery_customer/view/screens/home/home_screen.dart';
+import 'package:sq_customer/helper/cart_helper.dart';
+import 'package:sq_customer/helper/date_converter.dart';
+import 'package:sq_customer/helper/price_converter.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/view/screens/home/home_screen.dart';
 
 class CartController extends GetxController implements GetxService {
   final CartRepo cartRepo;

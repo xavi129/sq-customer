@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
+import 'package:sq_customer/util/app_constants.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

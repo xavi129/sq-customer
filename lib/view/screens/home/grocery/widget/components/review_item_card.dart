@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/item_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/helper/price_converter.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/add_favourite_view.dart';
-import 'package:sq_delivery_customer/view/base/cart_count_view.dart';
-import 'package:sq_delivery_customer/view/base/custom_image.dart';
-import 'package:sq_delivery_customer/view/base/discount_tag.dart';
-import 'package:sq_delivery_customer/view/base/hover/on_hover.dart';
-import 'package:sq_delivery_customer/view/base/organic_tag.dart';
+import 'package:sq_customer/controller/item_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/helper/price_converter.dart';
+import 'package:sq_customer/util/app_constants.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/add_favourite_view.dart';
+import 'package:sq_customer/view/base/cart_count_view.dart';
+import 'package:sq_customer/view/base/custom_image.dart';
+import 'package:sq_customer/view/base/discount_tag.dart';
+import 'package:sq_customer/view/base/hover/on_hover.dart';
+import 'package:sq_customer/view/base/organic_tag.dart';
 
 class ReviewItemCard extends StatelessWidget {
   final bool isFeatured;

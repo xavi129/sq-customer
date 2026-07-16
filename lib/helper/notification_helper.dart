@@ -3,20 +3,20 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/chat_controller.dart';
-import 'package:sq_delivery_customer/controller/notification_controller.dart';
-import 'package:sq_delivery_customer/controller/order_controller.dart';
-import 'package:sq_delivery_customer/data/model/body/notification_body.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/chat_controller.dart';
+import 'package:sq_customer/controller/notification_controller.dart';
+import 'package:sq_customer/controller/order_controller.dart';
+import 'package:sq_customer/data/model/body/notification_body.dart';
+import 'package:sq_customer/helper/route_helper.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
+import 'package:sq_customer/util/app_constants.dart';
 import 'package:get/get.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:http/http.dart' as http;
-import 'package:sq_delivery_customer/view/screens/dashboard/dashboard_screen.dart';
-import 'package:sq_delivery_customer/view/screens/notification/widget/notifiation_popup_dialog.dart';
+import 'package:sq_customer/view/screens/dashboard/dashboard_screen.dart';
+import 'package:sq_customer/view/screens/notification/widget/notifiation_popup_dialog.dart';
 
 class NotificationHelper {
 

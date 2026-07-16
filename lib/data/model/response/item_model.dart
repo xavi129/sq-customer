@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/basic_medicine_model.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/data/model/response/basic_medicine_model.dart';
 
 class ItemModel {
   int? totalSize;

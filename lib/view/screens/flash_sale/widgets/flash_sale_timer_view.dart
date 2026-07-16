@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/screens/home/grocery/widget/components/timer_widget.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/screens/home/grocery/widget/components/timer_widget.dart';
 class FlashSaleTimerView extends StatelessWidget {
   final Duration? eventDuration;
   const FlashSaleTimerView({Key? key, this.eventDuration}) : super(key: key);

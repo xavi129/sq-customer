@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/controller/user_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/response_model.dart';
-import 'package:sq_delivery_customer/data/model/response/userinfo_model.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_button.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
-import 'package:sq_delivery_customer/view/base/custom_text_field.dart';
-import 'package:sq_delivery_customer/view/base/image_picker_widget.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/controller/user_controller.dart';
+import 'package:sq_customer/data/model/response/response_model.dart';
+import 'package:sq_customer/data/model/response/userinfo_model.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_button.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/view/base/custom_text_field.dart';
+import 'package:sq_customer/view/base/image_picker_widget.dart';
 
 
 class WebUpdateProfileWidget extends StatefulWidget {

@@ -1,20 +1,20 @@
 import 'package:shimmer_animation/shimmer_animation.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/banner_controller.dart';
-import 'package:sq_delivery_customer/controller/location_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/address_model.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_image.dart';
-import 'package:sq_delivery_customer/view/base/custom_loader.dart';
-import 'package:sq_delivery_customer/view/base/title_widget.dart';
-import 'package:sq_delivery_customer/view/screens/address/widget/address_widget.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/banner_controller.dart';
+import 'package:sq_customer/controller/location_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/data/model/response/address_model.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_image.dart';
+import 'package:sq_customer/view/base/custom_loader.dart';
+import 'package:sq_customer/view/base/title_widget.dart';
+import 'package:sq_customer/view/screens/address/widget/address_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/banner_view.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/popular_store_view.dart';
+import 'package:sq_customer/view/screens/home/widget/banner_view.dart';
+import 'package:sq_customer/view/screens/home/widget/popular_store_view.dart';
 
 class ModuleView extends StatelessWidget {
   final SplashController splashController;

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:just_the_tooltip/just_the_tooltip.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/order_controller.dart';
-import 'package:sq_delivery_customer/controller/store_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/cart_model.dart';
-import 'package:sq_delivery_customer/data/model/response/config_model.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/screens/checkout/widget/time_slot_bottom_sheet.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/order_controller.dart';
+import 'package:sq_customer/controller/store_controller.dart';
+import 'package:sq_customer/data/model/response/cart_model.dart';
+import 'package:sq_customer/data/model/response/config_model.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/screens/checkout/widget/time_slot_bottom_sheet.dart';
 class TimeSlotSection extends StatelessWidget {
   final int? storeId;
   final StoreController storeController;

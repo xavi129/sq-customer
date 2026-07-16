@@ -1,20 +1,20 @@
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/banner_controller.dart';
-import 'package:sq_delivery_customer/controller/campaign_controller.dart';
-import 'package:sq_delivery_customer/controller/cart_controller.dart';
-import 'package:sq_delivery_customer/controller/location_controller.dart';
-import 'package:sq_delivery_customer/controller/store_controller.dart';
-import 'package:sq_delivery_customer/controller/wishlist_controller.dart';
-import 'package:sq_delivery_customer/data/api/api_checker.dart';
-import 'package:sq_delivery_customer/data/api/api_client.dart';
-import 'package:sq_delivery_customer/data/model/response/landing_model.dart';
-import 'package:sq_delivery_customer/data/model/response/config_model.dart';
-import 'package:sq_delivery_customer/data/model/response/module_model.dart';
-import 'package:sq_delivery_customer/data/repository/splash_repo.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/banner_controller.dart';
+import 'package:sq_customer/controller/campaign_controller.dart';
+import 'package:sq_customer/controller/cart_controller.dart';
+import 'package:sq_customer/controller/location_controller.dart';
+import 'package:sq_customer/controller/store_controller.dart';
+import 'package:sq_customer/controller/wishlist_controller.dart';
+import 'package:sq_customer/data/api/api_checker.dart';
+import 'package:sq_customer/data/api/api_client.dart';
+import 'package:sq_customer/data/model/response/landing_model.dart';
+import 'package:sq_customer/data/model/response/config_model.dart';
+import 'package:sq_customer/data/model/response/module_model.dart';
+import 'package:sq_customer/data/repository/splash_repo.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/util/html_type.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
-import 'package:sq_delivery_customer/view/screens/home/home_screen.dart';
+import 'package:sq_customer/util/html_type.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/view/screens/home/home_screen.dart';
 
 class SplashController extends GetxController implements GetxService {
   final SplashRepo splashRepo;

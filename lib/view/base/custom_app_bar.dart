@@ -1,10 +1,10 @@
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/cart_widget.dart';
-import 'package:sq_delivery_customer/view/base/veg_filter_widget.dart';
-import 'package:sq_delivery_customer/view/base/web_menu_bar.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/cart_widget.dart';
+import 'package:sq_customer/view/base/veg_filter_widget.dart';
+import 'package:sq_customer/view/base/web_menu_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

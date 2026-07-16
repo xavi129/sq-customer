@@ -1,4 +1,4 @@
-import 'package:sq_delivery_customer/data/model/response/item_model.dart' as product_variation;
+import 'package:sq_customer/data/model/response/item_model.dart' as product_variation;
 
 class OnlineCartModel {
   int? id;

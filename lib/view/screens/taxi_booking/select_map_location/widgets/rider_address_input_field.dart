@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/location_controller.dart';
-import 'package:sq_delivery_customer/controller/rider_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/prediction_model.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
+import 'package:sq_customer/controller/location_controller.dart';
+import 'package:sq_customer/controller/rider_controller.dart';
+import 'package:sq_customer/data/model/response/prediction_model.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
 class RiderAddressInputField extends StatelessWidget {
   final bool isFormAddress;
   const RiderAddressInputField({Key? key, required this.isFormAddress}) : super(key: key);

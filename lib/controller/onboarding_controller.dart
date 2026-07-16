@@ -1,6 +1,6 @@
-import 'package:sq_delivery_customer/data/api/api_checker.dart';
-import 'package:sq_delivery_customer/data/model/response/onboarding_model.dart';
-import 'package:sq_delivery_customer/data/repository/onboarding_repo.dart';
+import 'package:sq_customer/data/api/api_checker.dart';
+import 'package:sq_customer/data/model/response/onboarding_model.dart';
+import 'package:sq_customer/data/repository/onboarding_repo.dart';
 import 'package:get/get.dart';
 
 class OnBoardingController extends GetxController implements GetxService {

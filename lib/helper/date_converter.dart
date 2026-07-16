@@ -1,4 +1,4 @@
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 

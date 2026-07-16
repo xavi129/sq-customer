@@ -1,7 +1,7 @@
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/wishlist_controller.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/wishlist_controller.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
 import 'package:get/get.dart';
 
 class ApiChecker {

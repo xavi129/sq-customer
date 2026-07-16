@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
+import 'package:sq_customer/util/dimensions.dart';
 
 class Bannerads extends StatefulWidget {
   const Bannerads({Key? key}) : super(key: key);

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/order_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_text_field.dart';
-import 'package:sq_delivery_customer/view/base/image_picker_widget.dart';
+import 'package:sq_customer/controller/order_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_text_field.dart';
+import 'package:sq_customer/view/base/image_picker_widget.dart';
 class NoteAndPrescriptionSection extends StatelessWidget {
   final OrderController orderController;
   final int? storeId;

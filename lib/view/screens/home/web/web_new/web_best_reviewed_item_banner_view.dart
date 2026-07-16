@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/view/base/custom_image.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/view/base/custom_image.dart';
 
 class WebStoreWiseBannerView extends StatelessWidget {
   const WebStoreWiseBannerView({Key? key}) : super(key: key);

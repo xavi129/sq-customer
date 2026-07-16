@@ -1,11 +1,11 @@
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/data/model/body/place_order_body.dart';
-import 'package:sq_delivery_customer/data/model/response/cart_model.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart' as other_variation;
-import 'package:sq_delivery_customer/data/model/response/online_cart_model.dart';
-import 'package:sq_delivery_customer/helper/price_converter.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/data/model/body/place_order_body.dart';
+import 'package:sq_customer/data/model/response/cart_model.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/data/model/response/item_model.dart' as other_variation;
+import 'package:sq_customer/data/model/response/online_cart_model.dart';
+import 'package:sq_customer/helper/price_converter.dart';
 
 class CartHelper {
 

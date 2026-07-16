@@ -1,19 +1,19 @@
-import 'package:sq_delivery_customer/controller/campaign_controller.dart';
-import 'package:sq_delivery_customer/controller/item_controller.dart';
-import 'package:sq_delivery_customer/controller/localization_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/helper/price_converter.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_image.dart';
-import 'package:sq_delivery_customer/view/base/discount_tag.dart';
-import 'package:sq_delivery_customer/view/base/hover/on_hover.dart';
-import 'package:sq_delivery_customer/view/base/not_available_widget.dart';
-import 'package:sq_delivery_customer/view/base/rating_bar.dart';
+import 'package:sq_customer/controller/campaign_controller.dart';
+import 'package:sq_customer/controller/item_controller.dart';
+import 'package:sq_customer/controller/localization_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/helper/price_converter.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_image.dart';
+import 'package:sq_customer/view/base/discount_tag.dart';
+import 'package:sq_customer/view/base/hover/on_hover.dart';
+import 'package:sq_customer/view/base/not_available_widget.dart';
+import 'package:sq_customer/view/base/rating_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
-import 'package:sq_delivery_customer/view/base/title_widget.dart';
+import 'package:sq_customer/view/base/title_widget.dart';
 
 class WebCampaignView extends StatelessWidget {
   final CampaignController campaignController;

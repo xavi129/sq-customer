@@ -1,6 +1,6 @@
-import 'package:sq_delivery_customer/data/model/response/basic_campaign_model.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/data/model/response/store_model.dart';
+import 'package:sq_customer/data/model/response/basic_campaign_model.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/data/model/response/store_model.dart';
 
 class BannerModel {
   List<BasicCampaignModel>? campaigns;

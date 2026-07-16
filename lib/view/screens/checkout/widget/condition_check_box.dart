@@ -1,9 +1,9 @@
 import 'package:flutter/gestures.dart';
-import 'package:sq_delivery_customer/controller/order_controller.dart';
-import 'package:sq_delivery_customer/controller/parcel_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
+import 'package:sq_customer/controller/order_controller.dart';
+import 'package:sq_customer/controller/parcel_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

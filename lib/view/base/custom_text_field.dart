@@ -1,10 +1,10 @@
 import 'package:country_code_picker/country_code_picker.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:sq_delivery_customer/view/base/code_picker_widget.dart';
+import 'package:sq_customer/view/base/code_picker_widget.dart';
 
 class CustomTextField extends StatefulWidget {
   final String titleText;

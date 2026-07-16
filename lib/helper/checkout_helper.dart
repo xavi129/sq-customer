@@ -1,23 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/coupon_controller.dart';
-import 'package:sq_delivery_customer/controller/location_controller.dart';
-import 'package:sq_delivery_customer/controller/order_controller.dart';
-import 'package:sq_delivery_customer/controller/parcel_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/controller/store_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/address_model.dart';
-import 'package:sq_delivery_customer/data/model/response/cart_model.dart';
-import 'package:sq_delivery_customer/data/model/response/item_model.dart';
-import 'package:sq_delivery_customer/data/model/response/parcel_category_model.dart';
-import 'package:sq_delivery_customer/data/model/response/store_model.dart';
-import 'package:sq_delivery_customer/data/model/response/zone_response_model.dart';
-import 'package:sq_delivery_customer/helper/date_converter.dart';
-import 'package:sq_delivery_customer/helper/price_converter.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/base/custom_dropdown.dart';
-import 'package:sq_delivery_customer/view/screens/address/widget/address_widget.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/coupon_controller.dart';
+import 'package:sq_customer/controller/location_controller.dart';
+import 'package:sq_customer/controller/order_controller.dart';
+import 'package:sq_customer/controller/parcel_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/controller/store_controller.dart';
+import 'package:sq_customer/data/model/response/address_model.dart';
+import 'package:sq_customer/data/model/response/cart_model.dart';
+import 'package:sq_customer/data/model/response/item_model.dart';
+import 'package:sq_customer/data/model/response/parcel_category_model.dart';
+import 'package:sq_customer/data/model/response/store_model.dart';
+import 'package:sq_customer/data/model/response/zone_response_model.dart';
+import 'package:sq_customer/helper/date_converter.dart';
+import 'package:sq_customer/helper/price_converter.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/base/custom_dropdown.dart';
+import 'package:sq_customer/view/screens/address/widget/address_widget.dart';
 
 class CheckoutHelper {
 

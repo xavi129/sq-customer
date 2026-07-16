@@ -1,7 +1,7 @@
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/data/api/api_client.dart';
-import 'package:sq_delivery_customer/data/model/response/address_model.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/data/api/api_client.dart';
+import 'package:sq_customer/data/model/response/address_model.dart';
+import 'package:sq_customer/util/app_constants.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';

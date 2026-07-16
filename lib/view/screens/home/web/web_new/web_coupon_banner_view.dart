@@ -3,13 +3,13 @@ import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/coupon_controller.dart';
-import 'package:sq_delivery_customer/helper/price_converter.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/grocery/promo_code_banner_view.dart';
+import 'package:sq_customer/controller/coupon_controller.dart';
+import 'package:sq_customer/helper/price_converter.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/view/screens/home/widget/grocery/promo_code_banner_view.dart';
 
 class WebCouponBannerView extends StatefulWidget {
   const WebCouponBannerView({Key? key}) : super(key: key);

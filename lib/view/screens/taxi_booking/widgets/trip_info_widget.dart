@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/theme_controller.dart';
-import 'package:sq_delivery_customer/data/model/body/user_information_body.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/screens/taxi_booking/select_map_location/widgets/dotted_line.dart';
-import 'package:sq_delivery_customer/view/screens/taxi_booking/widgets/see_details_widget.dart';
+import 'package:sq_customer/controller/theme_controller.dart';
+import 'package:sq_customer/data/model/body/user_information_body.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/screens/taxi_booking/select_map_location/widgets/dotted_line.dart';
+import 'package:sq_customer/view/screens/taxi_booking/widgets/see_details_widget.dart';
 class TripInfoWidget extends StatelessWidget {
   final UserInformationBody filterBody;
   const TripInfoWidget({Key? key, required this.filterBody}) : super(key: key);

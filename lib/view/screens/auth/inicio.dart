@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
-import 'package:sq_delivery_customer/view/screens/auth/widget/guest_button.dart';
-import 'package:sq_delivery_customer/view/screens/auth/widget/social_login_widget.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
+import 'package:sq_customer/view/screens/auth/widget/guest_button.dart';
+import 'package:sq_customer/view/screens/auth/widget/social_login_widget.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen({super.key});

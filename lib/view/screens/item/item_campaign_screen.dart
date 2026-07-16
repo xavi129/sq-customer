@@ -1,11 +1,11 @@
-import 'package:sq_delivery_customer/controller/campaign_controller.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/base/custom_app_bar.dart';
-import 'package:sq_delivery_customer/view/base/footer_view.dart';
-import 'package:sq_delivery_customer/view/base/item_view.dart';
+import 'package:sq_customer/controller/campaign_controller.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/base/custom_app_bar.dart';
+import 'package:sq_customer/view/base/footer_view.dart';
+import 'package:sq_customer/view/base/item_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/view/base/menu_drawer.dart';
+import 'package:sq_customer/view/base/menu_drawer.dart';
 
 class ItemCampaignScreen extends StatefulWidget {
   final bool isJustForYou;

@@ -1,13 +1,13 @@
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/user_controller.dart';
-import 'package:sq_delivery_customer/data/api/api_checker.dart';
-import 'package:sq_delivery_customer/data/model/body/wallet_filter_body.dart';
-import 'package:sq_delivery_customer/data/model/response/fund_bonus_body.dart';
-import 'package:sq_delivery_customer/data/model/response/wallet_model.dart';
-import 'package:sq_delivery_customer/data/repository/wallet_repo.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/controller/user_controller.dart';
+import 'package:sq_customer/data/api/api_checker.dart';
+import 'package:sq_customer/data/model/body/wallet_filter_body.dart';
+import 'package:sq_customer/data/model/response/fund_bonus_body.dart';
+import 'package:sq_customer/data/model/response/wallet_model.dart';
+import 'package:sq_customer/data/repository/wallet_repo.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/app_constants.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
 import 'package:universal_html/html.dart' as html;
 
 class WalletController extends GetxController implements GetxService{

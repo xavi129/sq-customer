@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:sq_delivery_customer/controller/config_remote.dart';
-// import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/view/screens/flash_sale/flash_sale_view.dart';
-import 'package:sq_delivery_customer/view/screens/home/ads.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/bad_weather_widget.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/grocery/banner_view.dart';
-// import 'package:sq_delivery_customer/view/screens/home/widget/grocery/best_reviewed_item_view.dart';
-// import 'package:sq_delivery_customer/view/screens/home/widget/grocery/best_store_nearby_view.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/grocery/category_view.dart';
-// import 'package:sq_delivery_customer/view/screens/home/widget/grocery/item_that_you_love_view.dart';
-// import 'package:sq_delivery_customer/view/screens/home/widget/grocery/just_for_you_view.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/grocery/most_popular_item_view.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/grocery/new_on_mart_view.dart';
-// import 'package:sq_delivery_customer/view/screens/home/widget/grocery/middle_section_banner_view.dart';
-// import 'package:sq_delivery_customer/view/screens/home/widget/grocery/special_offer_view.dart';
-// import 'package:sq_delivery_customer/view/screens/home/widget/grocery/visit_again_view.dart';
+import 'package:sq_customer/controller/config_remote.dart';
+// import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/view/screens/flash_sale/flash_sale_view.dart';
+import 'package:sq_customer/view/screens/home/ads.dart';
+import 'package:sq_customer/view/screens/home/widget/bad_weather_widget.dart';
+import 'package:sq_customer/view/screens/home/widget/grocery/banner_view.dart';
+// import 'package:sq_customer/view/screens/home/widget/grocery/best_reviewed_item_view.dart';
+// import 'package:sq_customer/view/screens/home/widget/grocery/best_store_nearby_view.dart';
+import 'package:sq_customer/view/screens/home/widget/grocery/category_view.dart';
+// import 'package:sq_customer/view/screens/home/widget/grocery/item_that_you_love_view.dart';
+// import 'package:sq_customer/view/screens/home/widget/grocery/just_for_you_view.dart';
+import 'package:sq_customer/view/screens/home/widget/grocery/most_popular_item_view.dart';
+import 'package:sq_customer/view/screens/home/widget/grocery/new_on_mart_view.dart';
+// import 'package:sq_customer/view/screens/home/widget/grocery/middle_section_banner_view.dart';
+// import 'package:sq_customer/view/screens/home/widget/grocery/special_offer_view.dart';
+// import 'package:sq_customer/view/screens/home/widget/grocery/visit_again_view.dart';
 
 
 class GroceryHomeScreen extends StatelessWidget {

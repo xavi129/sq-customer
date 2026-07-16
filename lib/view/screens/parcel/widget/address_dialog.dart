@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/location_controller.dart';
-import 'package:sq_delivery_customer/controller/parcel_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/address_model.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/base/no_data_screen.dart';
-import 'package:sq_delivery_customer/view/screens/address/widget/address_widget.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/location_controller.dart';
+import 'package:sq_customer/controller/parcel_controller.dart';
+import 'package:sq_customer/data/model/response/address_model.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/base/no_data_screen.dart';
+import 'package:sq_customer/view/screens/address/widget/address_widget.dart';
 
 class AddressDialog extends StatelessWidget {
   final Function(AddressModel address) onTap;

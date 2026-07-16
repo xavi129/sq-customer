@@ -1,13 +1,13 @@
 import 'dart:convert';
 
-import 'package:sq_delivery_customer/controller/localization_controller.dart';
-import 'package:sq_delivery_customer/data/api/api_client.dart';
-import 'package:sq_delivery_customer/data/model/response/address_model.dart';
-import 'package:sq_delivery_customer/data/model/response/module_model.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
+import 'package:sq_customer/controller/localization_controller.dart';
+import 'package:sq_customer/data/api/api_client.dart';
+import 'package:sq_customer/data/model/response/address_model.dart';
+import 'package:sq_customer/data/model/response/module_model.dart';
+import 'package:sq_customer/util/app_constants.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sq_delivery_customer/util/html_type.dart';
+import 'package:sq_customer/util/html_type.dart';
 
 class SplashRepo {
   ApiClient apiClient;

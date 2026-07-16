@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sq_delivery_customer/data/model/body/user_information_body.dart';
-import 'package:sq_delivery_customer/data/model/response/vehicle_model.dart';
-import 'package:sq_delivery_customer/helper/responsive_helper.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
+import 'package:sq_customer/data/model/body/user_information_body.dart';
+import 'package:sq_customer/data/model/response/vehicle_model.dart';
+import 'package:sq_customer/helper/responsive_helper.dart';
+import 'package:sq_customer/util/dimensions.dart';
 import 'rider_car_card.dart';
 
 class RiderCarList extends StatelessWidget {

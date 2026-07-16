@@ -4,17 +4,17 @@ import 'dart:collection';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/location_controller.dart';
-import 'package:sq_delivery_customer/controller/order_controller.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
-import 'package:sq_delivery_customer/data/model/response/order_model.dart';
-import 'package:sq_delivery_customer/data/model/response/zone_response_model.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/base/custom_app_bar.dart';
+import 'package:sq_customer/controller/location_controller.dart';
+import 'package:sq_customer/controller/order_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
+import 'package:sq_customer/data/model/response/order_model.dart';
+import 'package:sq_customer/data/model/response/zone_response_model.dart';
+import 'package:sq_customer/util/app_constants.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/base/custom_app_bar.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import 'package:sq_delivery_customer/view/screens/checkout/widget/payment_failed_dialog.dart';
-import 'package:sq_delivery_customer/view/screens/wallet/widget/fund_payment_dialog.dart';
+import 'package:sq_customer/view/screens/checkout/widget/payment_failed_dialog.dart';
+import 'package:sq_customer/view/screens/wallet/widget/fund_payment_dialog.dart';
 
 class PaymentScreen extends StatefulWidget {
   final OrderModel orderModel;

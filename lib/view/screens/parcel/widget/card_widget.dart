@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
+import 'package:sq_customer/util/dimensions.dart';
 
 class CardWidget extends StatelessWidget {
   final Widget child;

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/data/api/api_checker.dart';
-import 'package:sq_delivery_customer/data/model/body/user_information_body.dart';
-import 'package:sq_delivery_customer/data/model/response/brand_model.dart';
-import 'package:sq_delivery_customer/data/model/response/vehicle_model.dart';
-import 'package:sq_delivery_customer/data/repository/car_selection_repo.dart';
+import 'package:sq_customer/data/api/api_checker.dart';
+import 'package:sq_customer/data/model/body/user_information_body.dart';
+import 'package:sq_customer/data/model/response/brand_model.dart';
+import 'package:sq_customer/data/model/response/vehicle_model.dart';
+import 'package:sq_customer/data/repository/car_selection_repo.dart';
 
 
 /*receive car list based on hourly and km , also filter car and select car function will be placed here*/

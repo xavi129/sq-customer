@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/controller/localization_controller.dart';
-import 'package:sq_delivery_customer/data/api/api_client.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
+import 'package:sq_customer/controller/localization_controller.dart';
+import 'package:sq_customer/data/api/api_client.dart';
+import 'package:sq_customer/util/app_constants.dart';
 
 class CategoryRepo {
   final ApiClient apiClient;

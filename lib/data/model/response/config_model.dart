@@ -1,4 +1,4 @@
-import 'package:sq_delivery_customer/data/model/response/module_model.dart';
+import 'package:sq_customer/data/model/response/module_model.dart';
 
 class ConfigModel {
   String? businessName;

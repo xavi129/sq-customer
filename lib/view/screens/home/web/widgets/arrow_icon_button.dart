@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sq_delivery_customer/view/base/hover/on_hover.dart';
+import 'package:sq_customer/view/base/hover/on_hover.dart';
 
 class ArrowIconButton extends StatelessWidget {
   final bool isRight;

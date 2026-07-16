@@ -1,5 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:sq_delivery_customer/util/images.dart';
+import 'package:sq_customer/util/images.dart';
 import 'package:flutter/cupertino.dart';
 
 class CustomImage extends StatelessWidget {

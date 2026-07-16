@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:sq_delivery_customer/controller/config_remote.dart';
-import 'package:sq_delivery_customer/view/screens/home/ads.dart';
-// import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/bad_weather_widget.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/grocery/best_store_nearby_view.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/grocery/category_view.dart';
-// import 'package:sq_delivery_customer/view/screens/home/widget/grocery/item_that_you_love_view.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/grocery/just_for_you_view.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/grocery/most_popular_item_view.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/grocery/new_on_mart_view.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/grocery/special_offer_view.dart';
-import 'package:sq_delivery_customer/view/screens/home/widget/banner_view.dart';
-import 'package:sq_delivery_customer/util/images.dart';
+import 'package:sq_customer/controller/config_remote.dart';
+import 'package:sq_customer/view/screens/home/ads.dart';
+// import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/view/screens/home/widget/bad_weather_widget.dart';
+import 'package:sq_customer/view/screens/home/widget/grocery/best_store_nearby_view.dart';
+import 'package:sq_customer/view/screens/home/widget/grocery/category_view.dart';
+// import 'package:sq_customer/view/screens/home/widget/grocery/item_that_you_love_view.dart';
+import 'package:sq_customer/view/screens/home/widget/grocery/just_for_you_view.dart';
+import 'package:sq_customer/view/screens/home/widget/grocery/most_popular_item_view.dart';
+import 'package:sq_customer/view/screens/home/widget/grocery/new_on_mart_view.dart';
+import 'package:sq_customer/view/screens/home/widget/grocery/special_offer_view.dart';
+import 'package:sq_customer/view/screens/home/widget/banner_view.dart';
+import 'package:sq_customer/util/images.dart';
 
 class FoodHomeScreen extends StatelessWidget {
   const FoodHomeScreen({Key? key}) : super(key: key);

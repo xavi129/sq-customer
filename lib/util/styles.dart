@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
+import 'package:sq_customer/util/app_constants.dart';
+import 'package:sq_customer/util/dimensions.dart';
 import 'package:flutter/material.dart';
 
 final robotoRegular = TextStyle(

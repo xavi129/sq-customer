@@ -1,19 +1,19 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/cart_controller.dart';
-import 'package:sq_delivery_customer/controller/localization_controller.dart';
-import 'package:sq_delivery_customer/controller/location_controller.dart';
-import 'package:sq_delivery_customer/controller/theme_controller.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/util/app_constants.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/util/images.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/cart_controller.dart';
+import 'package:sq_customer/controller/localization_controller.dart';
+import 'package:sq_customer/controller/location_controller.dart';
+import 'package:sq_customer/controller/theme_controller.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/util/app_constants.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/util/images.dart';
+import 'package:sq_customer/util/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/view/base/custom_dropdown.dart';
-import 'package:sq_delivery_customer/view/base/hover/text_hover.dart';
-import 'package:sq_delivery_customer/view/screens/auth/sign_in_screen.dart';
+import 'package:sq_customer/view/base/custom_dropdown.dart';
+import 'package:sq_customer/view/base/hover/text_hover.dart';
+import 'package:sq_customer/view/screens/auth/sign_in_screen.dart';
 
 class WebMenuBar extends StatelessWidget implements PreferredSizeWidget {
   const WebMenuBar({Key? key}) : super(key: key);

@@ -1,7 +1,7 @@
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/foundation.dart';
 import 'package:image_compression_flutter/image_compression_flutter.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

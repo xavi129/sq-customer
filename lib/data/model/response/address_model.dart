@@ -1,4 +1,4 @@
-import 'package:sq_delivery_customer/data/model/response/zone_response_model.dart';
+import 'package:sq_customer/data/model/response/zone_response_model.dart';
 
 class AddressModel {
   int? id;

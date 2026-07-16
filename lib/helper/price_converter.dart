@@ -1,8 +1,8 @@
 import 'package:animated_flip_counter/animated_flip_counter.dart';
 import 'package:flutter/material.dart';
-import 'package:sq_delivery_customer/controller/splash_controller.dart';
+import 'package:sq_customer/controller/splash_controller.dart';
 import 'package:get/get.dart';
-import 'package:sq_delivery_customer/util/styles.dart';
+import 'package:sq_customer/util/styles.dart';
 
 class PriceConverter {
   static String convertPrice(double? price, {double? discount, String? discountType, bool forDM = false}) {

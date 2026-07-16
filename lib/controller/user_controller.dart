@@ -1,18 +1,18 @@
 import 'dart:typed_data';
 
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/wishlist_controller.dart';
-import 'package:sq_delivery_customer/data/api/api_checker.dart';
-import 'package:sq_delivery_customer/data/model/response/conversation_model.dart';
-import 'package:sq_delivery_customer/data/model/response/response_model.dart';
-import 'package:sq_delivery_customer/data/repository/user_repo.dart';
-import 'package:sq_delivery_customer/data/model/response/userinfo_model.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/wishlist_controller.dart';
+import 'package:sq_customer/data/api/api_checker.dart';
+import 'package:sq_customer/data/model/response/conversation_model.dart';
+import 'package:sq_customer/data/model/response/response_model.dart';
+import 'package:sq_customer/data/repository/user_repo.dart';
+import 'package:sq_customer/data/model/response/userinfo_model.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:sq_delivery_customer/helper/network_info.dart';
-import 'package:sq_delivery_customer/helper/route_helper.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
-import 'package:sq_delivery_customer/view/screens/auth/inicio.dart';
+import 'package:sq_customer/helper/network_info.dart';
+import 'package:sq_customer/helper/route_helper.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/view/screens/auth/inicio.dart';
 
 class UserController extends GetxController implements GetxService {
   final UserRepo userRepo;

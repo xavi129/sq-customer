@@ -2,22 +2,22 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:sq_delivery_customer/controller/auth_controller.dart';
-import 'package:sq_delivery_customer/controller/location_controller.dart';
-import 'package:sq_delivery_customer/controller/order_controller.dart';
-import 'package:sq_delivery_customer/data/api/api_checker.dart';
-import 'package:sq_delivery_customer/data/model/response/address_model.dart';
-import 'package:sq_delivery_customer/data/model/response/parcel_category_model.dart';
-import 'package:sq_delivery_customer/data/model/response/parcel_instruction_model.dart';
-import 'package:sq_delivery_customer/data/model/response/place_details_model.dart';
-import 'package:sq_delivery_customer/data/model/response/video_content_model.dart';
-import 'package:sq_delivery_customer/data/model/response/why_choose_model.dart';
-import 'package:sq_delivery_customer/data/model/response/zone_response_model.dart';
-import 'package:sq_delivery_customer/data/repository/parcel_repo.dart';
-import 'package:sq_delivery_customer/util/dimensions.dart';
-import 'package:sq_delivery_customer/view/base/custom_dropdown.dart';
-import 'package:sq_delivery_customer/view/base/custom_snackbar.dart';
-import 'package:sq_delivery_customer/view/screens/address/widget/address_widget.dart';
+import 'package:sq_customer/controller/auth_controller.dart';
+import 'package:sq_customer/controller/location_controller.dart';
+import 'package:sq_customer/controller/order_controller.dart';
+import 'package:sq_customer/data/api/api_checker.dart';
+import 'package:sq_customer/data/model/response/address_model.dart';
+import 'package:sq_customer/data/model/response/parcel_category_model.dart';
+import 'package:sq_customer/data/model/response/parcel_instruction_model.dart';
+import 'package:sq_customer/data/model/response/place_details_model.dart';
+import 'package:sq_customer/data/model/response/video_content_model.dart';
+import 'package:sq_customer/data/model/response/why_choose_model.dart';
+import 'package:sq_customer/data/model/response/zone_response_model.dart';
+import 'package:sq_customer/data/repository/parcel_repo.dart';
+import 'package:sq_customer/util/dimensions.dart';
+import 'package:sq_customer/view/base/custom_dropdown.dart';
+import 'package:sq_customer/view/base/custom_snackbar.dart';
+import 'package:sq_customer/view/screens/address/widget/address_widget.dart';
 
 class ParcelController extends GetxController implements GetxService {
   final ParcelRepo parcelRepo;
